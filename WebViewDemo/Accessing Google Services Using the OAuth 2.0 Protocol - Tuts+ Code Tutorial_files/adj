@@ -1,0 +1,309 @@
+if (!window.mraid) {document.write('\x3cdiv class="GoogleActiveViewClass" ' +'id="DfaVisibilityIdentifier_3911086155"\x3e');}
+(function() {
+  var DEBUG = ''.toLowerCase() == 'true';
+  var csiStart = (+new Date);
+  var studioObjects = window['studioV2'] = window['studioV2'] || {};
+  var publisherSideFilePath = unescape('');
+  if(publisherSideFilePath == '') {
+    publisherSideFilePath = '/doubleclick/DARTIframe.html';
+  } else if (publisherSideFilePath.charAt(publisherSideFilePath.length - 1) == '/') {
+    publisherSideFilePath += 'DARTIframe.html';
+  }
+  var bookingTimeMetaData = {
+  };
+
+  var runtimeMetaData = {
+  };
+
+  var exitUrlPatternMacroValues = {
+  };
+  var macroParser = function (macroName, value) {
+    return (value.indexOf(macroName) < 0) ? value : '';
+  };
+  var adServerData = {
+    eventReportingUrl: 'http://ad.doubleclick.net/activity;src=4364734;met=1;v=1;pid=117227069;aid=289535098;ko=0;cid=62124542;rid=62004542;rv=2;',
+    clickUrl: 'http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvbKroCOXbZ6PMUzSDC6FPRvOU9VikCK24YfO0NIiqL9EcZQuYbp0kP4hGXxHdvHDQismDZzZz9_gFENWmk2p24ZFjOdO4xmjmoHeLxPSKgML9SvAJdS06hyQDlXZJtIdfLTQycUmgSeA&sig=Cg0ArKJSzEh-Mf1Eqm1BEAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DC4sLDFY9cVZ7gMMenhASK6IMYrZif4AaNrIPfjgHAjbcBEAEgAGDJjvCIhKTsD4IBF2NhLXB1Yi0zNTU4ODcwNTY0NTI3NDE2yAEJ4AIAqAMBmAQAqgTwAU_QWHsFxGNXS-JRsdEFnhjuXfjxgShg2gDV_Vt4cqFMImB2nrZDhGsxIUzmWNfGsFcTcnaTBgW1MpKA6Ixd8hMupBil0_EFe9M2hbT0gyycQ5jiGppWgrjOxT9eIaFhK7K8aTfxI4Uaa6XAasniCRS_qEaMNgsI6STBCPEajwTsGUJOjqL9Fwnv9YL1lPXO0BWVqFQbeyprt8nhmVSAHW_M1p25WytEsFuSkiDpPlZakvQ7Oj5sGVmZrG4Odj9-BxkDuUo08fMMrgyjE8VXp25uv9Vvb2J7Kpy1Guj49gO6clgcrXVdHGDXtbNcc2jCXOAEAYAG54uKhY_P7fk_oAYh2AcA%26num%3D1%26sig%3DAOD64_28CB2NrxIkU-rkcUxPnGO7VOX7og%26client%3Dca-pub-3558870564527416%26adurl%3D',
+    clickUrlTimesToEscape: '',
+    impressionUrl: 'http://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjsvbKroCOXbZ6PMUzSDC6FPRvOU9VikCK24YfO0NIiqL9EcZQuYbp0kP4hGXxHdvHDQismDZzZz9_gFENWmk2p24ZFjOdO4xmjmoHeLxPSKgML9SvAJdS06hyQDlXZJtIdfLTQycUmgSeA&sig=Cg0ArKJSzPjzVyH8Y4cBEAE&adurl=',
+    geoData: 'ct=US&st=MA&city=14293&dma=8&zp=02026&bw=1',
+    siteName: 'N4976.226576DBM',
+    siteId: '1653349',
+    adId: '0',
+    exitSuffix: '',
+    buyId: '8620556',
+    creativeId: '62124542',
+    placementId: '117227069',
+    advertiserId: '4364734',
+    keyValueOrdinal: '0',
+    renderingVersion: '2',
+    renderingId: '62004542',
+    randomNumber: '3911086155',
+    dynamicData: '',
+    stringReportingUrl: 'http://ad.doubleclick.net/activity;src=4364734;stragg=1;v=1;pid=117227069;aid=289535098;ko=0;cid=62124542;rid=62004542;rv=2;rn=3911086155;',
+    urlToGetKeywordsFor: '%LivePreviewSiteUrl',
+    bookingTimeMetaData: bookingTimeMetaData,
+    generatedAdSlot: false,
+    exitUrlPatternMacroValues: exitUrlPatternMacroValues,
+    renderingEnvironment: ('' == '1' ||
+        window['mraid']) ? 'IN_APP' : 'BROWSER',
+    placementDimensions: {
+      'w': '300',
+      'h': '250'
+    },
+    tag: {
+      adContainerElementId: macroParser('ad_container_id', ''),
+      hideObjects: '',
+      top: '',
+      left: '',
+      zIndex: '',
+      duration: '',
+      wmode: '',
+      preferHtml5Artwork: '' == 'true',
+      adSenseKeywords: '',
+      adSenseLatitude: '',
+      adSenseLongitude: '',
+      publisherSideFilePath: publisherSideFilePath,
+      runtimeMetaData: runtimeMetaData,
+      lidarEnabled: false,
+      expansionMode: '',
+      renderFloatInplace: ''.toLowerCase() == 'true',
+      tryToWriteHtmlInline: ''.toLowerCase() == 'true'
+    }
+  };
+
+    var scheme = location.protocol;
+  var staticResourceMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var creativeMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var backupImageUrl = '/4364734/1-apc_lavender_300x250_wBorder.jpg';
+  if (!/^https?:/.test(backupImageUrl)) {
+    backupImageUrl = creativeMediaServer + backupImageUrl;
+  }
+  var backupImage = {
+    exitUrl: 'http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvbKroCOXbZ6PMUzSDC6FPRvOU9VikCK24YfO0NIiqL9EcZQuYbp0kP4hGXxHdvHDQismDZzZz9_gFENWmk2p24ZFjOdO4xmjmoHeLxPSKgML9SvAJdS06hyQDlXZJtIdfLTQycUmgSeA&sig=Cg0ArKJSzEh-Mf1Eqm1BEAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DC4sLDFY9cVZ7gMMenhASK6IMYrZif4AaNrIPfjgHAjbcBEAEgAGDJjvCIhKTsD4IBF2NhLXB1Yi0zNTU4ODcwNTY0NTI3NDE2yAEJ4AIAqAMBmAQAqgTwAU_QWHsFxGNXS-JRsdEFnhjuXfjxgShg2gDV_Vt4cqFMImB2nrZDhGsxIUzmWNfGsFcTcnaTBgW1MpKA6Ixd8hMupBil0_EFe9M2hbT0gyycQ5jiGppWgrjOxT9eIaFhK7K8aTfxI4Uaa6XAasniCRS_qEaMNgsI6STBCPEajwTsGUJOjqL9Fwnv9YL1lPXO0BWVqFQbeyprt8nhmVSAHW_M1p25WytEsFuSkiDpPlZakvQ7Oj5sGVmZrG4Odj9-BxkDuUo08fMMrgyjE8VXp25uv9Vvb2J7Kpy1Guj49gO6clgcrXVdHGDXtbNcc2jCXOAEAYAG54uKhY_P7fk_oAYh2AcA%26num%3D1%26sig%3DAOD64_28CB2NrxIkU-rkcUxPnGO7VOX7og%26client%3Dca-pub-3558870564527416%26adurl%3Dhttp://methodhome.com/product-category/all-purpose-cleaner/%253Futm_campaign%253DMethodBrand2015%2526utm_medium%253Ddisplay%2526utm_content%253D117227069%257C289535098%257C62124542%2526utm_source%253DN4976.226576DBM',
+    target: '_blank',
+    imageUrl: backupImageUrl,
+    width: '300',
+    height: '250',
+    backupDisplayActivityUrl: '',
+    thirdPartyBackupImpressionUrl: ''
+  };
+
+  var versionPrefix = DEBUG ? 'db_' : '';
+  var templateVersion = '200_73';
+  var renderingScriptPath = '/879366';
+  var rendererDisplayType = '';
+  rendererDisplayType += 'dfa7banner_';
+  rendererDisplayType += 'flash_';
+  var rendererFormat = 'inpage';
+  var rendererName = rendererDisplayType + rendererFormat;
+  var renderingLibrary = renderingScriptPath + '/' + rendererName + '_rendering_lib_' +
+      versionPrefix + templateVersion + '.js';
+  // Adserver has a logic to detect media files and prepend host name.
+  if (!/^https?:/.test(renderingLibrary)) {
+    renderingLibrary = staticResourceMediaServer + renderingLibrary;
+  }
+
+  var adCreativeDefinitions = {};
+
+  var creativeId = '62124542';
+  var adId = adCreativeDefinitions[adServerData.adId] ? adServerData.adId : 0;
+  // The unique creative is identified by combination of creative id and ad id.
+  // When the same creative(same creative id and same ad id) is served on the page more
+  // than once then they will share the creative definition yet there will be
+  // multiple instances of 'adResponses'.s
+  var creativeKey = [creativeId, adId].join('_');
+  var creativeDef = adCreativeDefinitions[adServerData.adId] ?
+      adCreativeDefinitions[adServerData.adId] :
+      '[%DEFAULT_PLCR_PATH%]';
+  if(!/^https?:/.test(creativeDef) && creativeDef.substring(0, 2) != '//') {
+    creativeDef = creativeMediaServer + creativeDef;
+  }
+    creativeDef = null;
+  studioObjects['creativeCount'] = studioObjects['creativeCount'] || 0;
+  var creativeDto = {
+    id: creativeId,
+    uniqueId: creativeId + '_' + studioObjects['creativeCount']++,
+    templateVersion: templateVersion,
+    adServerData: adServerData,
+    isPreviewEnvironment: '%PreviewMode' == 'true',
+    hasFlashAsset: true,
+    hasHtmlAsset: false,
+    requiresCss3Animations: false,
+    flashVersion: '10.3',
+    httpsMediaServer: 'https://s0.2mdn.net',
+    httpMediaServer: 'http://s0.2mdn.net',
+    renderingScriptPath: renderingScriptPath,
+    renderingLibrary: renderingLibrary,
+    rendererName: rendererName,
+    creativeDefinitionUrl: creativeDef,
+    creativeKey: creativeKey,
+    thirdPartyImpressionUrls: [''],
+    thirdPartyArtworkImpressionUrl: '',
+    breakoutToTop: false,
+    dimensions: {
+      width: '300px',
+      height: '250px'
+    },
+    backupImage: backupImage,
+    csiStart: csiStart,
+    csiAdRespTime: csiStart - (parseFloat('') || 0),
+    csiEvents: {},
+    hasModernizrFeatureChecks: false,
+    html5FeatureChecks: [
+    ],
+    hasSwiffyHtmlAsset: false
+  };
+
+  var inGdnIframe = window['IN_ADSENSE_IFRAME'] || false;
+  var inYahooSecureIframe = window.Y && Y.SandBox && Y.SandBox.vendor;
+  var inWinLiveIframe = false;
+  try {
+    inWinLiveIframe = !!window.$WLXRmAd;
+  } catch(e) {}
+  var inSafeFrame = window.$sf && window.$sf.ext;
+  var isMsnAjaxIframe = (typeof(inDapMgrIf) != 'undefined' && inDapMgrIf);
+  var breakoutIframe = ''.toLowerCase();
+  var shouldBreakout = (((false ||
+                          false) &&
+                         !inGdnIframe &&
+                         !inYahooSecureIframe &&
+                         !inSafeFrame &&
+                         !inWinLiveIframe) ||
+                        (true && breakoutIframe == 'true')) &&
+                       self != top &&
+                       !creativeDto.isPreviewEnvironment &&
+                       breakoutIframe != 'false';
+
+  if (adServerData.tag.adContainerElementId == '' &&
+      (true || false ||
+         adServerData.tag.renderFloatInplace)) {
+    var containerId = ['creative', creativeDto.uniqueId].join('_');
+    var divHtml = ['<div id="', containerId, '"></div>'].join('');
+    document.write(divHtml);
+    adServerData.tag.adContainerElementId = containerId;
+    adServerData.generatedAdSlot = true;
+  }
+  var creatives = studioObjects['creatives'] = studioObjects['creatives'] || {};
+  var creative = creatives[creativeKey] = creatives[creativeKey] || {};
+  var adResponses = creative['adResponses'] = creative['adResponses'] || [];
+  creative['shouldBreakout'] = creative['shouldBreakout'] || shouldBreakout;
+  var iframeBusterLibrary = renderingScriptPath + '/iframe_buster_' +
+      versionPrefix + templateVersion + '.js';
+  if(!/^https?:/.test(iframeBusterLibrary)) {
+    iframeBusterLibrary = staticResourceMediaServer + iframeBusterLibrary;
+  }
+  var loadedLibraries = studioObjects['loadedLibraries'] = studioObjects['loadedLibraries'] || {};
+  var versionedLibrary = loadedLibraries[templateVersion] = loadedLibraries[templateVersion] || {};
+  var typedLibrary = versionedLibrary[rendererName] = versionedLibrary[rendererName] || {};
+  adResponses.push({
+    creativeDto: creativeDto
+  });
+  if (shouldBreakout) {
+    if (versionedLibrary['breakout']) {
+      versionedLibrary['breakout']();
+    } else if (!versionedLibrary['breakoutLoading']) {
+      versionedLibrary['breakoutLoading'] = true;
+      document.write('<scr' + 'ipt type="text/javascript" src="' + iframeBusterLibrary + '" async="async"></scr' + 'ipt>');
+    }
+  } else if (typedLibrary['bootstrap'] && creative['creativeDefinition']) {
+    typedLibrary['bootstrap']();
+  } else {
+    if (!typedLibrary['loading']) {
+      typedLibrary['loading'] = true;
+      creativeDto.csiEvents['gb'] = (+new Date);
+      document.write('<scr' + 'ipt type="text/javascript" src="' + renderingLibrary + '"' + (adServerData.tag.tryToWriteHtmlInline ? '' : ' async="async"') + '></scr' + 'ipt>');
+    }
+  }
+  if (isMsnAjaxIframe) {
+    window.setTimeout("document.close();", 1000);
+  }
+  (function() {
+  var creativeDefinition = {
+    customScriptUrl: '',
+    isDynamic: false,
+    delayedImpression: false,
+    standardEventIds: {
+      HTML5_CREATIVE_IMPRESSION: '871060'
+    },
+    exitEvents: [
+      {
+        name: 'clickTag',
+        reportingId: '',
+        url: 'http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvbKroCOXbZ6PMUzSDC6FPRvOU9VikCK24YfO0NIiqL9EcZQuYbp0kP4hGXxHdvHDQismDZzZz9_gFENWmk2p24ZFjOdO4xmjmoHeLxPSKgML9SvAJdS06hyQDlXZJtIdfLTQycUmgSeA&sig=Cg0ArKJSzEh-Mf1Eqm1BEAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DC4sLDFY9cVZ7gMMenhASK6IMYrZif4AaNrIPfjgHAjbcBEAEgAGDJjvCIhKTsD4IBF2NhLXB1Yi0zNTU4ODcwNTY0NTI3NDE2yAEJ4AIAqAMBmAQAqgTwAU_QWHsFxGNXS-JRsdEFnhjuXfjxgShg2gDV_Vt4cqFMImB2nrZDhGsxIUzmWNfGsFcTcnaTBgW1MpKA6Ixd8hMupBil0_EFe9M2hbT0gyycQ5jiGppWgrjOxT9eIaFhK7K8aTfxI4Uaa6XAasniCRS_qEaMNgsI6STBCPEajwTsGUJOjqL9Fwnv9YL1lPXO0BWVqFQbeyprt8nhmVSAHW_M1p25WytEsFuSkiDpPlZakvQ7Oj5sGVmZrG4Odj9-BxkDuUo08fMMrgyjE8VXp25uv9Vvb2J7Kpy1Guj49gO6clgcrXVdHGDXtbNcc2jCXOAEAYAG54uKhY_P7fk_oAYh2AcA%26num%3D1%26sig%3DAOD64_28CB2NrxIkU-rkcUxPnGO7VOX7og%26client%3Dca-pub-3558870564527416%26adurl%3Dhttp://methodhome.com/product-category/all-purpose-cleaner/%253Futm_campaign%253DMethodBrand2015%2526utm_medium%253Ddisplay%2526utm_content%253D117227069%257C289535098%257C62124542%2526utm_source%253DN4976.226576DBM',
+        targetWindow: '_blank',
+        windowProperties: ''
+      }
+    ],
+    timerEvents: [
+    ],
+    counterEvents: [
+    ],
+    childFiles: [
+    ],
+    videoFiles: [
+    ],
+    videoEntries: [
+    ],
+    primaryAssets: [
+      {
+        id: '0',
+        artworkType: 'FLASH',
+        displayType: 'BANNER',
+        width: '300',
+        height: '250',
+        servingPath: '/4364734/1-apc_lavender_300x250_wBorder.swf',
+        zIndex: '0',
+        customCss: '',
+        flashArtworkTypeData: {
+          actionscriptVersion: '2',
+          wmode: 'opaque',
+          sdkVersion: '',
+          flashBackgroundColor: '',
+          allowScriptAccess: 'always'
+        },
+        htmlArtworkTypeData: null,
+        floatingDisplayTypeData: null,
+        expandingDisplayTypeData: null,
+        imageGalleryTypeData: null,
+        pageSettings:null,
+layoutsConfig: null,
+layoutsApi: null
+      }
+    ]
+  }
+  var rendererDisplayType = '';
+  rendererDisplayType += 'dfa7banner_';
+  rendererDisplayType += 'flash_';
+  var rendererFormat = 'inpage';
+  var rendererName = rendererDisplayType + rendererFormat;
+
+  var creativeId = '62124542';
+  var adId = '0';
+  var templateVersion = '200_73';
+  var studioObjects = window['studioV2'] = window['studioV2'] || {};
+  var creativeObjects = studioObjects['creatives'] = studioObjects['creatives'] || {};
+  var creativeKey = [creativeId, adId].join('_');
+  var creative = creativeObjects[creativeKey] = creativeObjects[creativeKey] || {};
+  creative['creativeDefinition'] = creativeDefinition;
+  var adResponses = creative['adResponses'] || [];
+  for (var i = 0; i < adResponses.length; i++) {
+    adResponses[i].creativeDto && adResponses[i].creativeDto.csiEvents &&
+        (adResponses[i].creativeDto.csiEvents['pe'] =
+            adResponses[i].creativeDto.csiEvents['pe'] || (+new Date));
+  }
+  var loadedLibraries = studioObjects['loadedLibraries'] = studioObjects['loadedLibraries'] || {};
+  var versionedLibrary = loadedLibraries[templateVersion] = loadedLibraries[templateVersion] || {};
+  var typedLibrary = versionedLibrary[rendererName] = versionedLibrary[rendererName] || {};
+  if (typedLibrary['bootstrap']) {
+    typedLibrary.bootstrap();
+  }
+})();
+
+})();
+document.write('\n\x3cnoscript\x3e\n  \x3ca target\x3d\x22_blank\x22 href\x3d\x22http://adclick.g.doubleclick.net/pcs/click?xai\x3dAKAOjsvbKroCOXbZ6PMUzSDC6FPRvOU9VikCK24YfO0NIiqL9EcZQuYbp0kP4hGXxHdvHDQismDZzZz9_gFENWmk2p24ZFjOdO4xmjmoHeLxPSKgML9SvAJdS06hyQDlXZJtIdfLTQycUmgSeA\x26sig\x3dCg0ArKJSzEh-Mf1Eqm1BEAE\x26adurl\x3dhttp://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DC4sLDFY9cVZ7gMMenhASK6IMYrZif4AaNrIPfjgHAjbcBEAEgAGDJjvCIhKTsD4IBF2NhLXB1Yi0zNTU4ODcwNTY0NTI3NDE2yAEJ4AIAqAMBmAQAqgTwAU_QWHsFxGNXS-JRsdEFnhjuXfjxgShg2gDV_Vt4cqFMImB2nrZDhGsxIUzmWNfGsFcTcnaTBgW1MpKA6Ixd8hMupBil0_EFe9M2hbT0gyycQ5jiGppWgrjOxT9eIaFhK7K8aTfxI4Uaa6XAasniCRS_qEaMNgsI6STBCPEajwTsGUJOjqL9Fwnv9YL1lPXO0BWVqFQbeyprt8nhmVSAHW_M1p25WytEsFuSkiDpPlZakvQ7Oj5sGVmZrG4Odj9-BxkDuUo08fMMrgyjE8VXp25uv9Vvb2J7Kpy1Guj49gO6clgcrXVdHGDXtbNcc2jCXOAEAYAG54uKhY_P7fk_oAYh2AcA%26num%3D1%26sig%3DAOD64_28CB2NrxIkU-rkcUxPnGO7VOX7og%26client%3Dca-pub-3558870564527416%26adurl%3Dhttp://methodhome.com/product-category/all-purpose-cleaner/%253Futm_campaign%253DMethodBrand2015%2526utm_medium%253Ddisplay%2526utm_content%253D117227069%257C289535098%257C62124542%2526utm_source%253DN4976.226576DBM\x22\x3e\n    \x3cimg border\x3d\x220\x22 alt\x3d\x22\x22 src\x3d\x22//s0.2mdn.net/4364734/1-apc_lavender_300x250_wBorder.jpg\x22\n        width\x3d\x22300\x22 height\x3d\x22250\x22 /\x3e\n  \x3c/a\x3e\n\x3c/noscript\x3e\n');if (!window.mraid) {document.write('\x3c/div\x3e');}if (!window.mraid) {(function() {var avDiv = document.getElementById("DfaVisibilityIdentifier_3911086155");if (avDiv) {avDiv['_avi_'] = 'BSLaOF49cVfnyHK3V0AGz2IDwDgAAAAAQATgByAEJ4AQCoAY_';avDiv['_avihost_'] = 'pagead2.googlesyndication.com';avDiv['_avm_'] = 'ts\x3d1\x26';}var glidar = document.createElement('script');glidar.type = 'text/javascript';glidar.async = true;glidar.src = '//pagead2.googlesyndication.com/pagead/js/lidar.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glidar, s);})();}document.write('\x3cimg src\x3d\x22https://secure-us.imrworldwide.com/cgi-bin/m?ci\x3dnlsnci751\x26amp;am\x3d1\x26amp;at\x3dview\x26amp;rt\x3dbanner\x26amp;st\x3dimage\x26amp;ca\x3dnlsn21953\x26amp;cr\x3d62124542\x26amp;pc\x3d117227069\x26amp;ce\x3dN4976.226576DBM\x26amp;r\x3d3911086155\x22 height\x3d\x221\x22 width\x3d\x221\x22 border\x3d\x220\x22\x3e\x3cimg src\x3d\x22https://api.adsymptotic.com/api/s/trackconversion?_pid\x3d12555\x26amp;_psign\x3d9300f8b4fa5c6c24d4e197051c8b0302\x26amp;_aid\x3d12555\x26amp;_lbl\x3dRT_method_dcm_rtpixel\x22 height\x3d\x221\x22 width\x3d\x221\x22 border\x3d\x220\x22\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://z.moatads.com/essencemethod364890940323/moatad.js#moatClientLevel1\x3d8620556\x26amp;moatClientLevel2\x3d1653349\x26amp;moatClientLevel3\x3d117227069\x26amp;moatClientLevel4\x3d62124542\x26amp;moatClientSlicer1\x3d-\x26amp;moatClientSlicer2\x3d-\x26amp;zMoatG\x3dct\x3dUS\x26amp;st\x3dMA\x26amp;city\x3d14293\x26amp;dma\x3d8\x26amp;zp\x3d02026\x26amp;bw\x3d1\x22\x3e\x3c/script\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://secure.insightexpressai.com/adServer/adServerESI.aspx?bannerID\x3d325405\x26amp;siteID\x3dN4976.226576DBM\x26amp;creativeID\x3d62124542\x26amp;placementID\x3d117227069\x22\x3e\x3c/script\x3e');(function(){var f=function(a,c,b){return a.call.apply(a.bind,arguments)},g=function(a,c,b){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var b=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(b,d);return a.apply(c,b)}}return function(){return a.apply(c,arguments)}},k=function(a,c,b){k=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?f:g;return k.apply(null,arguments)};var l=document,m=window;var n=function(a){return{visible:1,hidden:2,prerender:3,preview:4}[a.webkitVisibilityState||a.mozVisibilityState||a.visibilityState||""]||0},p=function(a){var c;a.mozVisibilityState?c="mozvisibilitychange":a.webkitVisibilityState?c="webkitvisibilitychange":a.visibilityState&&(c="visibilitychange");return c};var r=function(){this.g=l;this.j=m;this.i=!1;this.h=[];this.m={};if(3==n(this.g)){var a=k(this.o,this);this.n=a;var c=this.g,b=p(this.g);c.addEventListener?c.addEventListener(b,a,!1):c.attachEvent&&c.attachEvent("on"+b,a)}else q(this)};r.p=function(){return r.l?r.l:r.l=new r};var s=/^([^:]+:\/\/[^/]+)/m,t=/^\d*,(.+)$/m,q=function(a){if(!a.i){a.i=!0;for(var c=0;c<a.h.length;++c)a.k.apply(a,a.h[c]);a.h=[]}};r.prototype.q=function(a,c){var b=c.target.t();(b=t.exec(b))&&(this.m[a]=b[1])};r.prototype.k=function(a,c){var b;if(b=this.s)i:{try{var d=s.exec(this.j.location.href),e=s.exec(a);if(d&&e&&d[1]==e[1]&&c){var h=k(this.q,this,c);this.s(a,h);b=!0;break i}}catch(y){}b=!1}b||(b=this.j,b.google_image_requests||(b.google_image_requests=[]),d=b.document.createElement("img"),d.src=a,b.google_image_requests.push(d))};r.prototype.o=function(){if(3!=n(this.g)){q(this);var a=this.g,c=p(this.g),b=this.n;a.removeEventListener?a.removeEventListener(c,b,!1):a.detachEvent&&a.detachEvent("on"+c,b)}};var u=function(a,c){var b=/(google|doubleclick).*\/pagead\/adview/.test(a),d=r.p(),e=a;if(b){b="&vis="+n(d.g);c&&(b+="&ve=1");var h=e.indexOf("&adurl"),e=-1==h?e+b:e.substring(0,h)+b+e.substring(h)}d.i?d.k(e,c):d.h.push([e,c])},v=["pdib"],w=this;v[0]in w||!w.execScript||w.execScript("var "+v[0]);for(var x;v.length&&(x=v.shift());)v.length||void 0===u?w=w[x]?w[x]:w[x]={}:w[x]=u;})();pdib("http://googleads4.g.doubleclick.net/pcs/view?xai\x3dAKAOjsvbKroCOXbZ6PMUzSDC6FPRvOU9VikCK24YfO0NIiqL9EcZQuYbp0kP4hGXxHdvHDQismDZzZz9_gFENWmk2p24ZFjOdO4xmjmoHeLxPSKgML9SvAJdS06hyQDlXZJtIdfLTQycUmgSeA\x26sig\x3dCg0ArKJSzPjzVyH8Y4cBEAE\x26adurl\x3d");
